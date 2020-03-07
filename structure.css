@@ -1,0 +1,38 @@
+* {
+  background-color: white;
+}
+header h1 {
+  color: aqua;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+header h1, h3 {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header h2 {
+  color: coral;
+  font-size: larger;
+}
+header h3 {
+  font-weight: 800;
+}
+
+li > h4 {
+  color:blueviolet;
+  font-size: larger;
+}
+
+.color {
+  color: red;
+}
+
+article p {
+font-family: 'Times New Roman', Times, serif;
+font-size: initial;
+font-weight: 300;
+font-style: normal;
+color: darkturquoise;
+}
