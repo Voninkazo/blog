@@ -1,0 +1,79 @@
+
+body {
+  background-color: white;
+  border: 2rem solid;
+}
+
+main {
+  width: 50%;
+  height: 50%;
+  margin-inline-start: 5rem;
+}
+
+header h1 {
+  color: aqua;
+  font-size: 100px;
+  font-weight: bold;
+  background-color: black;
+  margin-block-start: 0;
+  margin-block-end: 2rem;
+}
+
+header h1, h3 {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header h2 {
+  color: coral;
+  font-size: larger;
+}
+header h3 {
+  font-weight: 800;
+}
+
+article:nth-of-type(2) ul li {
+  list-style-type: none;
+}
+
+li > h4 {
+  color:blueviolet;
+  font-size: larger;
+}
+
+.color {
+  color: red;
+}
+
+article p {
+font-family: 'Times New Roman', Times, serif;
+font-size: initial;
+font-weight: 300;
+font-style: normal;
+color: black;
+}
+
+img[src="solution.png"] {
+  width: 500px;
+  height: auto;
+  display: block;
+}
+
+footer > nav > ul {
+  position: relative;
+  left: 35%;
+  background-color: blue;
+  width: 14rem;
+  height: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  top: 0;
+}
