@@ -60,7 +60,7 @@ img[src="solution.png"] {
 
 footer > nav > ul {
   position: relative;
-  left: 358px;
+  left: 35%;
   background-color: blue;
   width: 14rem;
   height: 2rem;
@@ -73,7 +73,6 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  display: block;
   font-weight: 900;
   top: 0;
 }
