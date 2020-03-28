@@ -53,7 +53,7 @@ font-style: normal;
 color: black;
 }
 
-img[src="solution.png"] {
+[src="solution.png"] {
   width: 500px;
   height: auto;
   display: block;
