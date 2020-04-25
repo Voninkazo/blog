@@ -1,0 +1,71 @@
+html {
+  background-color: var(--background);
+}
+
+
+body > nav h1 {
+  border-block-end: 1px solid var(--background);
+  font-size: var(--font);
+  line-height: 1.5;
+}
+
+body > nav a {
+  display: block;
+  color: #ccc;
+  font-weight: var(--bold);
+  text-decoration: var(--none-value);
+  padding: 0.75rem var(--unitless-values);
+}
+body nav ul li {
+  line-height: 3rem;
+}
+
+body > nav a:hover {
+  color: hotpink;
+  font-weight: var(--bold);
+}
+
+
+body > nav h1 {
+  font-size: var(--font);
+}
+
+body > nav ul {
+  text-align: center;
+  list-style: var(--none-value);
+  margin: var(--unitless-values);
+  padding: var(--unitless-values);
+}
+
+
+body header h2 {
+  font-size: 2rem;
+  color: cyan;
+  text-align: center;
+}
+:root {
+  --unitless-values: 0;
+  --none-value: none;
+  --bold: 700;
+  --font: 1.25rem;
+  --padding-base: 2rem;
+  --background: gray;
+}
+
+div p {
+  width: 45rem;
+  height: 3rem;
+  margin-inline-start: 20rem;
+  background-color: yellow;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 900;
+}
+p:hover {
+  background-color:red;
+  transition: 1s;
+  padding-block-start: var(--padding-base);
+  padding-inline-start: var(--padding-base);
+  padding-inline-end: var(--padding-base);
+  padding-block-end: var(--padding-base);
+}
