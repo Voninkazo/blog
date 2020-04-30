@@ -2,13 +2,6 @@ html {
   background-color: var(--background);
 }
 
-
-body > nav h1 {
-  border-block-end: 1px solid var(--background);
-  font-size: var(--font);
-  line-height: 1.5;
-}
-
 body > nav a {
   display: block;
   color: #ccc;
@@ -18,6 +11,7 @@ body > nav a {
 }
 body nav ul li {
   line-height: 3rem;
+  font-size: var(--font);
 }
 
 body > nav a:hover {
@@ -25,10 +19,6 @@ body > nav a:hover {
   font-weight: var(--bold);
 }
 
-
-body > nav h1 {
-  font-size: var(--font);
-}
 
 body > nav ul {
   text-align: center;
@@ -39,7 +29,7 @@ body > nav ul {
 
 
 body header h2 {
-  font-size: 2rem;
+  font-size: var(--font);
   color: cyan;
   text-align: center;
 }
@@ -47,9 +37,9 @@ body header h2 {
   --unitless-values: 0;
   --none-value: none;
   --bold: 700;
-  --font: 1.25rem;
   --padding-base: 2rem;
   --background: gray;
+  --font: 2rem;
 }
 
 div p {
