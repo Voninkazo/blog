@@ -11,6 +11,8 @@ body > nav a {
 }
 body nav ul li {
   line-height: 3rem;
+}
+ul li a {
   font-size: var(--font);
 }
 
