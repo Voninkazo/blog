@@ -1,0 +1,76 @@
+body {
+    margin-inline-start: 2rem;
+    background-color: gray;
+    margin-block-end: 10%;
+    width: var(--base-width);
+    color: white;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    font-family: 'lato_bold';
+}
+
+body header h1,
+h2 {
+    font-family: 'lato_bold';
+    font-size: 2rem;
+}
+
+img {
+    float: left;
+    padding-right: 2rem;
+    max-width: 40%;
+    border-radius: 20%;
+}
+
+body header nav {
+    margin-block-start: -3rem;
+    margin-block-end: 5rem;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-inline-start: 2rem;
+    list-style: none;
+    background-color: blue;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+    width: 5rem;
+}
+
+a:hover {
+    background-color: yellow;
+    transition: 1s;
+}
+
+blockquote {
+    background-color: deepskyblue;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+}
+
+blockquote:hover {
+    background-color: fuchsia;
+    transition: 1s;
+    width: var(--base-width);
+    padding-block-start: 2rem;
+}
+
+:root {
+    --base-width: 80%;
+}
+
+div p {
+    font-family: 'lato_regular';
+    width: 45rem;
+    height: 3rem;
+    margin-inline-start: 20rem;
+    background-color: yellow;
+    font-size: 1.5rem;
+    color: white;
+}
